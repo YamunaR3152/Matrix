@@ -1,0 +1,10 @@
+# Generate a random matrix
+random_matrix <- matrix(rnorm(100, mean = 0, sd = 1), nrow = 10)
+
+# Plot the matrix as a heatmap
+heatmap(random_matrix, 
+        Rowv = NA, 
+        Colv = NA, 
+        col = cm.colors(256),
+        scale = "none",
+        main = "Random Matrix Heatmap")
