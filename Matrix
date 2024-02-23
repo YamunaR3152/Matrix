@@ -8,3 +8,4 @@ heatmap(random_matrix,
         col = cm.colors(256),
         scale = "none",
         main = "Random Matrix Heatmap")
+
